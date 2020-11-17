@@ -8,9 +8,9 @@ echo "-----------------------------------------"
 
 read ARCHIVO
 
-if [ -d $ARCHIVO ]: then
-	tput setaf 1; cowsay "El archivo existe :D"
+if [ -d $ARCHIVO ]; then
+	tput setaf 2; echo "El archivo existe :D"
 else
-	tput setaf 2; cowsay "El archivo no existe :("
-	fi
+	tput setaf 1; echo "El archivo no existe :("
+fi
 	
